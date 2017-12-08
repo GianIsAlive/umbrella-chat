@@ -1,0 +1,60 @@
+.chat-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-box .current-channel {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-bottom: 1%;
+  border-bottom: solid 1px #979797;
+  background-color: #FFFFFF;
+}
+
+// TO DO: Fix the message conainer positioning
+// so it sticks to the bottom of the page
+
+.chat-box .channel-messages-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.chat-box .channel-messages{
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  height: auto;
+}
+
+.chat-box .post-date {
+  padding-bottom: 1%;
+  border-bottom: solid 1px #979797;
+}
+
+.message-container {
+  margin-top: 1%;
+}
+
+.messenger-info {
+  margin-bottom: 1%;
+}
+
+.messenger-profile-photo {
+  float: left;
+  margin-right: 1%;
+}
+
+.messenger {
+  margin-bottom: 0.5%;
+}
+
+.chat-box .message-form {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

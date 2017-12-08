@@ -1,0 +1,222 @@
+.round-button {
+  display: block;
+  background: #FCFDFE;
+  margin: 0 auto;
+  margin-top: 25%;
+  width: 58px;
+  height: 58px;
+  border-radius: 150px;
+  box-shadow: 0 2px 4px 0 rgba(92, 117, 143, 0.5); }
+
+.round-button:hover {
+  background-color: #BDDCFB; }
+
+.active {
+  background-color: #4D9BFB; }
+
+.active:hover {
+  background-color: #4D9BFB; }
+.e-large-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FCFDFE;
+  letter-spacing: 0.01px; }
+.large-text {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #474747;
+  letter-spacing: 0.01px; }
+.medium-text {
+  font-size: 1.025rem;
+  color: #272828;
+  letter-spacing: 0.01px; }
+.chat-directory .large-text {
+  margin-bottom: 4%; }
+
+.chat-directory .medium-text {
+  padding: 1.5% 0; }
+
+.chat-directory .large-text,
+.chat-directory .medium-text {
+  padding-left: 8%; }
+
+.chat-directory a:hover .medium-text {
+  background-color: #EAE9E9; }
+
+.company-name {
+  padding: 4% 8%;
+  background-color: #4D9BFB; }
+
+.organization-name, .messenger-name {
+  margin-top: 10%; }
+
+.organization-name a:first-of-type .medium-text {
+  color: #FCFDFE;
+  background-color: #3283E7; }
+.small-text {
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.01px; }
+.e-small-text {
+  font-size: 0.8rem;
+  color: #000000;
+  letter-spacing: 0.01px; }
+.input-field {
+  padding: 1.5% 2%;
+  font-size: 1.025rem;
+  color: #181818;
+  background-color: #F7F7F7;
+  border: 1px solid #979797;
+  border-radius: 4px; }
+
+.input-field:focus {
+  background-color: #FFFFFF; }
+.chat-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.chat-box .current-channel {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-bottom: 1%;
+  border-bottom: solid 1px #979797;
+  background-color: #FFFFFF; }
+
+.chat-box .channel-messages-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: scroll; }
+
+.chat-box .channel-messages {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  height: auto; }
+
+.chat-box .post-date {
+  padding-bottom: 1%;
+  border-bottom: solid 1px #979797; }
+
+.message-container {
+  margin-top: 1%; }
+
+.messenger-info {
+  margin-bottom: 1%; }
+
+.messenger-profile-photo {
+  float: left;
+  margin-right: 1%; }
+
+.messenger {
+  margin-bottom: 0.5%; }
+
+.chat-box .message-form {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+.app-container,
+.first-column,
+.second-column,
+.third-column {
+  position: relative; }
+
+.app-container {
+  display: flex; }
+
+.first-column {
+  flex-grow: 1;
+  width: 7%;
+  max-width: 84px;
+  min-width: 84px;
+  background-color: #A3CCF6; }
+
+.second-column {
+  flex-grow: 1;
+  width: 23%;
+  max-width: 332px;
+  min-width: 300px;
+  background-color: #F8F8F8; }
+
+.third-column {
+  width: 100%;
+  padding: 1.5%;
+  min-width: 350px;
+  background-color: #FFFFFF; }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+html, body, #app, .app-container {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem; }
+
+button, input {
+  background-color: #D8D8D8;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  padding: 0; }
+
+input {
+  width: 100%; }
+
+a {
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map*/

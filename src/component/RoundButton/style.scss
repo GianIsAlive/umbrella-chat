@@ -1,0 +1,21 @@
+.round-button {
+  display: block;
+  background: #FCFDFE;
+  margin: 0 auto;
+  margin-top: 25%;
+  width: 58px;
+  height: 58px;
+  border-radius: 150px;
+  box-shadow: 0 2px 4px 0 rgba(92,117,143,0.50);
+}
+.round-button:hover {
+  background-color: #BDDCFB;
+}
+.active {
+  // background-color: #CCE5FF;
+  background-color: #4D9BFB;
+}
+
+.active:hover {
+  background-color: #4D9BFB;
+}

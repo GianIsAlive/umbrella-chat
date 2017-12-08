@@ -1,0 +1,33 @@
+.app-container,
+.first-column,
+.second-column,
+.third-column {
+  position: relative;
+}
+
+.app-container {
+  display: flex;
+}
+
+.first-column {
+  flex-grow: 1;
+  width: 7%;
+  max-width: 84px;
+  min-width: 84px;
+  background-color: #A3CCF6;
+}
+
+.second-column {
+  flex-grow: 1;
+  width: 23%;
+  max-width: 332px;
+  min-width: 300px;
+  background-color: #F8F8F8;
+}
+
+.third-column {
+  width: 100%;
+  padding: 1.5%;
+  min-width: 350px;
+  background-color: #FFFFFF;
+}
